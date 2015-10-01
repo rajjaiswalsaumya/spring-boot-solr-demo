@@ -40,7 +40,7 @@ public class SpringBootSolrDemoApplicationTests {
     public void saveProduct() {
         Product product = productRepository.save(new Product("1", "rohit"));
         assertNotNull(product);
-        assertEquals(productRepository.findById("1"), "1");
+        assertEquals(productRepository.findById("1").getId(), "1");
     }
 
 
