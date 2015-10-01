@@ -11,7 +11,7 @@ import org.springframework.data.solr.core.mapping.SolrDocument;
  * Date: 10/1/2015
  * Time: 8:47 PM
  */
-@SolrDocument(solrCoreName = "product")
+@SolrDocument(solrCoreName = "collection1")
 public class Product {
 
     @Id
